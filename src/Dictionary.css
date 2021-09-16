@@ -11,4 +11,19 @@
 }
 .Dictionary input {
   margin: 0px 5px;
+  border-color: #ddd;
+  border-radius: 5px;
+}
+
+.Dictionary .search-btn {
+  background-color: #ddd;
+  color: #c7392a;
+  font-weight: 600;
+  transition: all 150ms ease-in-out;
+}
+
+.Dictionary .search-btn:hover {
+  color: #ddd;
+  background-color: #c7392a;
+  text-decoration: underline;
 }

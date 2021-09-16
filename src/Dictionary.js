@@ -47,7 +47,7 @@ export default function Dictionary() {
                 placeholder="Type a word"
                 onChange={handleKeywordChange}
               />
-              <input type="submit" value="Search" />
+              <input className="search-btn" type="submit" value="Search" />
             </span>
             <span className="col-4">
               <span className="form-header-right">Discover anything!</span>

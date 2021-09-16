@@ -16,7 +16,7 @@ export default function Results(props) {
           );
         })}
         <br />
-        <hr className="thick-break" />
+        <hr className="thick-break mt-2" />
         <hr className="thin-break" />
         <h4>But What Does It All Mean?</h4>
         {props.response.meanings.map(function (meaning, index) {
