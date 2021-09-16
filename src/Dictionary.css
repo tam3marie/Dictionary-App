@@ -2,24 +2,31 @@
   height: 4px;
   margin: -10px 0px;
 }
+.Dictionary hr {
+  opacity: 0.8;
+  width: 100%;
+}
 .Dictionary span {
   font-family: "Roboto Slab", serif;
 }
-.Dictionary .form-header-right {
-  display: flex;
-  justify-content: flex-end;
+.Dictionary form {
+  text-align: center;
 }
 .Dictionary input {
   margin: 0px 5px;
   border-color: #ddd;
   border-radius: 5px;
 }
+.Dictionary .search-box {
+  width: 400px;
+}
 
 .Dictionary .search-btn {
-  background-color: #ddd;
+  background-color: #c3c0bc;
   color: #c7392a;
   font-weight: 600;
   transition: all 150ms ease-in-out;
+  width: 100px;
 }
 
 .Dictionary .search-btn:hover {

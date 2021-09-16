@@ -37,22 +37,14 @@ export default function Dictionary() {
         <hr className="thick-break" />
         <hr className="thin-break" />
         <form onSubmit={handleSubmit}>
-          <div className="row">
-            <span className="col-4">
-              <span className="form-header-left">Look up any word!</span>
-            </span>
-            <span className="col-4">
-              <input
-                type="search"
-                placeholder="Type a word"
-                onChange={handleKeywordChange}
-              />
-              <input className="search-btn" type="submit" value="Search" />
-            </span>
-            <span className="col-4">
-              <span className="form-header-right">Discover anything!</span>
-            </span>
-          </div>
+          <input
+            className="search-box"
+            type="search"
+            placeholder="Look up any word: discover anything...
+"
+            onChange={handleKeywordChange}
+          />
+          <input className="search-btn" type="submit" value="Search" />
         </form>
         <hr className="thin-break" />
         <hr className="thick-break" />

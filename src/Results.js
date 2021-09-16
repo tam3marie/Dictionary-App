@@ -14,7 +14,7 @@ export default function Results(props) {
         <div className="row">
           <div className="col phonetics-section">
             <h3>Say That Again!</h3>
-            <h5>{props.response.word}</h5>
+            <h4>{props.response.word}</h4>
             {props.response.phonetics.map(function (phonetic, index) {
               return (
                 <div key={index}>
@@ -23,11 +23,11 @@ export default function Results(props) {
               );
             })}
           </div>
-          <div className="col synonym-section">
+          <div className="col synonyms-section">
             <h3>
               Synonym Rolls:
-              <div className="synonym-header-l2">Just Like Grammar</div>
-              <div className="synonym-header-l3">Used To Make Them</div>
+              <div className="synonyms-header-l2">Just Like Grammar</div>
+              <div className="synonyms-header-l3">Used To Make Them</div>
             </h3>
             {props.response.meanings.map(function (meaning, index) {
               return (
@@ -39,7 +39,7 @@ export default function Results(props) {
           </div>
         </div>
         <hr />
-        <h4>But What Does It All Mean?</h4>
+        <h5>But What Does It All Mean?</h5>
         {props.response.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
