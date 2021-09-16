@@ -1,0 +1,14 @@
+.Dictionary .thick-break {
+  height: 4px;
+  margin: -10px 0px;
+}
+.Dictionary span {
+  font-family: "Roboto Slab", serif;
+}
+.Dictionary .form-header-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.Dictionary input {
+  margin: 0px 5px;
+}

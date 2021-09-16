@@ -1,11 +1,12 @@
 import React from "react";
 import Phonetic from "./Phonetic";
 import Meanings from "./Meanings";
+import "./Results.css";
 
 export default function Results(props) {
   if (props.response) {
     return (
-      <div className="Results">
+      <div className="Results mt-4">
         <h2>{props.response.word}</h2>
         {props.response.phonetics.map(function (phonetic, index) {
           return (
@@ -14,6 +15,10 @@ export default function Results(props) {
             </div>
           );
         })}
+        <br />
+        <hr className="thick-break" />
+        <hr className="thin-break" />
+        <h4>But What Does It All Mean?</h4>
         {props.response.meanings.map(function (meaning, index) {
           return (
             <div key={index}>

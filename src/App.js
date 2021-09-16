@@ -7,8 +7,10 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Starie Knight Dictionary</h1>
-        <p>Extra! Extra! Read All About It!</p>
+        <div className="header">
+          <h1>Starie Knight Dictionary</h1>
+          <p>Extra! Extra! Read All About It!</p>
+        </div>
         <Dictionary />
       </div>
     </div>

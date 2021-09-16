@@ -1,3 +1,12 @@
 .App {
   margin: 30px 0px;
 }
+.App h1 {
+  font-family: "Grenze Gotisch", cursive;
+  font-size: 80px;
+}
+.App .header {
+  font-family: "Stylish", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}

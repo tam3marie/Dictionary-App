@@ -24,10 +24,12 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
+      <hr className="thick-break" />
+      <hr className="thin-break" />
       <form onSubmit={search}>
         <div className="row">
           <span className="col-4">
-            <span>Look up any word!</span>
+            <span className="form-header-left">Look up any word!</span>
           </span>
           <span className="col-4">
             <input
@@ -38,10 +40,12 @@ export default function Dictionary() {
             <input type="submit" value="Search" />
           </span>
           <span className="col-4">
-            <span>Discover anything!</span>
+            <span className="form-header-right">Discover anything!</span>
           </span>
         </div>
       </form>
+      <hr className="thin-break" />
+      <hr className="thick-break" />
       <Results response={response} />
     </div>
   );
