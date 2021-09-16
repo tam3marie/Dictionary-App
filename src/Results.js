@@ -13,7 +13,7 @@ export default function Results(props) {
         <hr className="thin-break" />
         <div className="row">
           <div className="col phonetics-section">
-            <h3>Say That Again!</h3>
+            <h3>~Say That Again~</h3>
             <h4>{props.response.word}</h4>
             {props.response.phonetics.map(function (phonetic, index) {
               return (
@@ -39,7 +39,7 @@ export default function Results(props) {
           </div>
         </div>
         <hr />
-        <h5>But What Does It All Mean?</h5>
+        <h5>Tell Me the Meaning of This!</h5>
         {props.response.meanings.map(function (meaning, index) {
           return (
             <div key={index}>

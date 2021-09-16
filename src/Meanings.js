@@ -6,7 +6,10 @@ export default function Meanings(props) {
   return (
     <div className="Meanings">
       <h6 className="part-of-speech mt-3">
-        <em>{props.meaning.partOfSpeech}</em>
+        <em>
+          {props.meaning.partOfSpeech}
+          (s)
+        </em>
       </h6>
       {props.meaning.definitions.map(function (definition, index) {
         return (

@@ -6,7 +6,6 @@
 }
 .Results h3 {
   font-family: "Roboto Slab", serif;
-  font-size: 28px;
 }
 
 .Results .phonetics-section h3 {
@@ -15,12 +14,14 @@
   text-align: center;
   text-decoration: underline;
   text-underline-offset: 5px;
+  font-size: 36px;
 }
 .Results .phonetics-section h4 {
   font-family: "Stylish", sans-serif;
   font-size: 40px;
 }
 .Results .synonyms-section h3 {
+  font-size: 30px;
   font-family: "Fjalla One", sans-serif;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .Results .phonetics-section {
-  border-right: 2px solid #c7392a;
+  border-right: 2px solid #4c4d4e;
 }
 
 .Results .synonyms-header-l2 {

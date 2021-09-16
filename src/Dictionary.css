@@ -23,14 +23,14 @@
 
 .Dictionary .search-btn {
   background-color: #c3c0bc;
-  color: #c7392a;
+  color: black;
   font-weight: 600;
   transition: all 150ms ease-in-out;
   width: 100px;
 }
 
 .Dictionary .search-btn:hover {
-  color: #ddd;
-  background-color: #c7392a;
+  color: white;
+  background-color: black;
   text-decoration: underline;
 }
