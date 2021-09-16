@@ -3,7 +3,7 @@ import "./Phonetic.css";
 
 export default function Phonetic(props) {
   return (
-    <div className="Phonetic text-center mt-3">
+    <div className="Phonetic mt-3">
       <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
         Listen
       </a>
