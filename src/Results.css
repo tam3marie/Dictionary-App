@@ -42,7 +42,7 @@
 .Results .synonyms-header-l3 {
   margin-left: 40px;
 }
-@media (max-width: 960px) {
+@media (max-width: 765px) {
   .Results h2 {
     font-size: 36px;
     text-transform: uppercase;
