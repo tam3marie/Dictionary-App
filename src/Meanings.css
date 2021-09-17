@@ -24,5 +24,14 @@
   font-weight: 600;
   font-size: 18px;
   margin-top: 10px;
-  opacity: 0.9;
+  opacity: 0.8;
+}
+.Meanings .definition,
+.example {
+  display: block;
+  padding-left: 10px;
+}
+.Meanings .definition::first-letter,
+.example::first-letter {
+  text-transform: uppercase;
 }

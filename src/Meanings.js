@@ -12,18 +12,29 @@ export default function Meanings(props) {
         </em>
       </h6>
       {props.meaning.definitions.map(function (definition, index) {
-        return (
-          <div key={index}>
-            <div className="definition-section">
-              <strong>Definition: </strong>
-              {definition.definition}
-              <div className="example-section">
-                <strong>Yeah, but use it in a sentence: </strong>
-                <em>{definition.example}</em>
+        if (definition.example) {
+          return (
+            <div key={index}>
+              <div className="definition-section">
+                <strong>Definition: </strong>
+                <span className="definition">{definition.definition}</span>
+                <div className="example-section">
+                  <strong>Put it all together in a sentence: </strong>
+                  <em className="example">{definition.example}</em>
+                </div>
               </div>
             </div>
-          </div>
-        );
+          );
+        } else {
+          return (
+            <div key={index}>
+              <div className="definition-section">
+                <strong>Definition: </strong>
+                <span className="definition">{definition.definition}</span>
+              </div>
+            </div>
+          );
+        }
       })}
     </div>
   );
