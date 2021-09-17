@@ -33,7 +33,7 @@ export default function Results(props) {
           </div>
         </div>
         <hr />
-        <h5>Tell Me the Meaning of This!</h5>
+        <h5>What's the Meaning of This?</h5>
         {props.response.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
