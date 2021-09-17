@@ -12,18 +12,12 @@ export default function Results(props) {
         <hr className="thick-break mt-3" />
         <hr className="thin-break" />
         <div className="row">
-          <div className="col phonetics-section">
+          <div className="col-md phonetics-section">
             <h3>~Say That Again~</h3>
             <h4>{props.response.word}</h4>
-            {props.response.phonetics.map(function (phonetic, index) {
-              return (
-                <div key={index}>
-                  <Phonetic phonetic={phonetic} />
-                </div>
-              );
-            })}
+            <Phonetic phonetic={props.response.phonetics[0]} />
           </div>
-          <div className="col synonyms-section">
+          <div className="col-md synonyms-section">
             <h3>
               Synonym Rolls:
               <div className="synonyms-header-l2">Just Like Grammar</div>

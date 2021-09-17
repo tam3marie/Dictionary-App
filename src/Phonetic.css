@@ -12,6 +12,7 @@
 .Phonetic a:hover {
   color: white;
   background-color: black;
+  text-decoration: underline;
 }
 
 .Phonetic .phonetic-text {

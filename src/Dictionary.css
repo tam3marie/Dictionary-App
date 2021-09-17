@@ -34,3 +34,15 @@
   background-color: black;
   text-decoration: underline;
 }
+@media (max-width: 960px) {
+  .Dictionary .search-box {
+    max-width: 95%;
+    margin-bottom: 5px;
+  }
+  .Dictionary ::placeholder {
+    font-size: 13px;
+  }
+  .Dictionary .search-btn {
+    max-width: 100%;
+  }
+}

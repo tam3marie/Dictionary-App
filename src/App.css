@@ -14,3 +14,11 @@
   font-size: 30px;
   text-align: center;
 }
+@media (max-width: 960px) {
+  .App h1 {
+    font-size: 50px;
+  }
+  .App .header {
+    font-size: 23px;
+  }
+}
