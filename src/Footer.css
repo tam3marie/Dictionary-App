@@ -1,0 +1,28 @@
+.Footer .thick-break {
+  height: 4px;
+  margin: -10px 0px;
+}
+.Footer hr {
+  opacity: 0.8;
+  width: 100%;
+}
+
+.Footer .open-source {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 30px;
+  margin: 20px auto;
+  max-width: 100%;
+  text-align: center;
+  text-underline-offset: 4px;
+}
+
+.Footer .open-source a {
+  color: teal;
+}
+
+.Footer .open-source a:hover {
+  color: #663399;
+}

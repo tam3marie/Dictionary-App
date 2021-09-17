@@ -1,5 +1,6 @@
 import React from "react";
 import Dictionary from "./Dictionary";
+import Footer from "./Footer";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -12,6 +13,7 @@ export default function App() {
           <p>Extra! Extra! Read All About It!</p>
         </div>
         <Dictionary />
+        <Footer />
       </div>
     </div>
   );

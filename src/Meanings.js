@@ -19,7 +19,7 @@ export default function Meanings(props) {
                 <span className="definition">{definition.definition}</span>
                 <div className="example-section">
                   <strong className="example-header">
-                    The <span>Write</span> Practice Makes Parfect:
+                    The <span>Write</span> Practice Makes Perfect:
                   </strong>
                   <em className="example">{definition.example}</em>
                 </div>
