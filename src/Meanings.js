@@ -2,7 +2,6 @@ import React from "react";
 import "./Meanings.css";
 
 export default function Meanings(props) {
-  console.log(props.meaning);
   return (
     <div className="Meanings">
       <h6 className="part-of-speech mt-3">
@@ -19,7 +18,9 @@ export default function Meanings(props) {
                 <strong>Definition: </strong>
                 <span className="definition">{definition.definition}</span>
                 <div className="example-section">
-                  <strong>Put it all together in a sentence: </strong>
+                  <strong className="example-header">
+                    The <span>Write</span> Practice Makes Parfect:
+                  </strong>
                   <em className="example">{definition.example}</em>
                 </div>
               </div>

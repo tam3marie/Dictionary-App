@@ -34,7 +34,7 @@
   background-color: black;
   text-decoration: underline;
 }
-@media (max-width: 960px) {
+@media (max-width: 765px) {
   .Dictionary .search-box {
     max-width: 95%;
     margin-bottom: 5px;

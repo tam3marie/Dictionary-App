@@ -19,7 +19,7 @@ export default function Results(props) {
           </div>
           <div className="col-md synonyms-section">
             <h3>
-              Synonym Rolls:
+              Synonym Rolls ~
               <div className="synonyms-header-l2">Just Like Grammar</div>
               <div className="synonyms-header-l3">Used To Make Them</div>
             </h3>
@@ -33,7 +33,7 @@ export default function Results(props) {
           </div>
         </div>
         <hr />
-        <h5>There's Meaning In Everything</h5>
+        <h5>There's a Meaning to Everything</h5>
         {props.response.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
