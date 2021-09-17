@@ -1,23 +1,24 @@
-.Phonetic a {
-  background-color: #c3c0bc;
-  border: 1px solid #c3c0bc;
-  border-radius: 20px;
+.Phonetic i {
+  background-color: white;
+  border: 1px solid #4e4f51;
+  border-radius: 22px;
   color: black;
+  font-size: 20px;
   font-weight: 600;
-  padding: 5px 10px;
+  padding: 10px;
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 
-.Phonetic a:hover {
+.Phonetic i:hover {
   color: white;
   background-color: black;
-  text-decoration: underline;
 }
 
 .Phonetic .phonetic-text {
   font-family: "Roboto Slab", serif;
   font-size: 18px;
   font-weight: 600;
+  margin-left: 10px;
   opacity: 0.8;
 }
