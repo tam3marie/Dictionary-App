@@ -10,13 +10,14 @@ export default function Dictionary() {
   const [response, setResponse] = useState(null);
   const [loaded, setLoaded] = useState(false);
   const [photos, setPhotos] = useState(null);
+  const [photosCount, setPhotosCount] = useState(0);
 
   function handleDictionaryResponse(response) {
     setResponse(response.data[0]);
   }
   function handlePexelsResponse(response) {
-    console.log(response.data);
     setPhotos(response.data.photos);
+    setPhotosCount(response.data.total_results);
   }
 
   function load() {
@@ -51,9 +52,9 @@ export default function Dictionary() {
   }
   if (loaded) {
     return (
-      <div className="Dictionary">
+      <div className="Dictionary" name="top">
         <hr className="thick-break" />
-        <hr className="thin-break" />
+        <hr />
         <form onSubmit={handleSubmit}>
           <input
             className="search-box"
@@ -64,10 +65,13 @@ export default function Dictionary() {
           />
           <input className="search-btn" type="submit" value="Search" />
         </form>
-        <hr className="thin-break" />
+        <hr />
         <hr className="thick-break" />
         <Results response={response} />
-        <Photos photos={photos} keyword={keyword} />
+        <Photos photos={photos} keyword={keyword} count={photosCount} />
+        <a href="#top" rel="noreferrer">
+          Back to Top
+        </a>
       </div>
     );
   } else {

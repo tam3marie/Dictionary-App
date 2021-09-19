@@ -4,25 +4,28 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 .Results h3 {
   font-family: "Roboto Slab", serif;
 }
 
 .Results .phonetics-section h3 {
   font-family: "Coustard", serif;
+  font-size: 36px;
   margin-bottom: 20px;
   text-align: center;
   text-decoration: underline;
   text-underline-offset: 8px;
-  font-size: 36px;
 }
+
 .Results .phonetics-section h4 {
   font-family: "Stylish", sans-serif;
   font-size: 40px;
 }
+
 .Results .synonyms-section h3 {
-  font-size: 30px;
   font-family: "Fjalla One", sans-serif;
+  font-size: 30px;
 }
 
 .Results h5 {
@@ -42,17 +45,21 @@
 .Results .synonyms-header-l3 {
   margin-left: 40px;
 }
+
 @media (max-width: 765px) {
   .Results h2 {
     font-size: 36px;
     text-transform: uppercase;
   }
+
   .Results .phonetics-section h3 {
     font-size: 28px;
   }
+
   .Results .phonetics-section h4 {
     font-size: 35px;
   }
+
   .Results .synonyms-section h3 {
     font-size: 25px;
     margin-top: 30px;
@@ -62,9 +69,10 @@
     font-size: 28px;
     text-align: center;
   }
+
   .Results .phonetics-section {
-    padding-bottom: 30px;
     border-bottom: 2px solid #4c4d4e;
     border-right: none;
+    padding-bottom: 30px;
   }
 }

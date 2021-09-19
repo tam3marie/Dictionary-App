@@ -4,15 +4,15 @@ body {
   background-size: cover;
 }
 :root {
+  font-family: "Grenze Gotisch", cursive;
   font-family: "Abril Fatface", cursive;
   font-family: "Coustard", serif;
   font-family: "Fjalla One", sans-serif;
-  font-family: "Grenze Gotisch", cursive;
+  font-family: "Rozha One", serif;
+  font-family: "Stylish", sans-serif;
   font-family: "Lobster", cursive;
   font-family: "Oswald", sans-serif;
   font-family: "Playfair Display", serif;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto Slab", serif;
-  font-family: "Rozha One", serif;
-  font-family: "Stylish", sans-serif;
 }

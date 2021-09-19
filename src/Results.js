@@ -10,7 +10,7 @@ export default function Results(props) {
       <div className="Results mt-4">
         <h2>{props.response.word}</h2>
         <hr className="thick-break mt-3" />
-        <hr className="thin-break" />
+        <hr />
         <div className="row">
           <div className="col-md phonetics-section">
             <h3>Let's Hear It For:</h3>

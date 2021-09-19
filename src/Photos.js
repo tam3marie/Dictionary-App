@@ -3,8 +3,7 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
-  console.log(props);
-  if (props.photos) {
+  if (props.count > 0) {
     return (
       <div className="Photos">
         <hr />

@@ -1,23 +1,39 @@
 .App {
   margin: 30px 0px;
 }
+
 .App h1 {
   font-family: "Grenze Gotisch", cursive;
   font-size: 80px;
+  text-align: center;
 }
+
 .App .container {
-  max-width: 95%;
   margin: 0 auto;
+  max-width: 95%;
 }
-.App .header {
+
+.App .header p {
   font-family: "Oswald", sans-serif;
   font-size: 30px;
   text-align: center;
 }
+
+.App .thick-break {
+  height: 4px;
+  margin: -10px 0px;
+}
+
+.App hr {
+  opacity: 0.8;
+  width: 100%;
+}
+
 @media (max-width: 765px) {
   .App h1 {
     font-size: 50px;
   }
+
   .App .header {
     font-size: 23px;
   }

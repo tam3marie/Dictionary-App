@@ -1,17 +1,20 @@
-.Footer .thick-break {
-  height: 4px;
-  margin: -10px 0px;
-}
-.Footer hr {
-  opacity: 0.8;
-  width: 100%;
+.Footer img {
+  align-content: center;
+  background-color: rgba(0, 23, 54, 0.9);
+  border-radius: 4px;
+  box-shadow: 10px 10px 15px rgb(167, 162, 162);
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 50%;
+  padding: 5px 100px;
 }
 
 .Footer .open-source {
+  border-radius: 4px;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  border-radius: 4px;
   line-height: 30px;
   margin: 20px auto;
   max-width: 100%;
@@ -20,9 +23,20 @@
 }
 
 .Footer .open-source a {
-  color: teal;
+  color: #155e89;
 }
 
 .Footer .open-source a:hover {
-  color: #663399;
+  background-color: #152b46;
+  color: #caa139;
+}
+
+@media (max-width: 765px) {
+  .Footer .open-source {
+    font-size: 14px;
+  }
+
+  .Footer img {
+    max-width: 90%;
+  }
 }
